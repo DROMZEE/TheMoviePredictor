@@ -24,6 +24,10 @@ Application de prediction de note de films deux semaines avant la sortie
 
 ## Setup
 
+## Sources
+
+* https://www.imdb.com/interfaces/
+* https://datasets.imdbws.com/
 
 ## Code Examples
 Show examples of usage:
@@ -48,7 +52,20 @@ Ce projet dispose de deux repo sur GitHub :
 * https://github.com/DROMZEE/TheMoviePredictor
 * https://github.com/Simplon-IA-Biarritz-1/the-movie-predictor-DROMZEE
 
-Plus d'informations sur ce post : https://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes
+Commande pour pusher sur deux dépôts :
+
+```console
+git remote set-url --add --push origin git@github.com:DROMZEE/TheMoviePredictor.git
+git remote set-url --add --push origin git@github.com:Simplon-IA-Biarritz-1/the-movie-predictor-DROMZEE.git
+```
+
+```console
+git remote -v
+```
+
+```console
+git remote show origin
+```
 
 ## Contact
 Created by [@dromzee](https://dromzee.fr/) - feel free to contact me!
