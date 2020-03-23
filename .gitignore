@@ -2,6 +2,7 @@
 tmp/
 */data/*
 data/
+/imdb_datasets/*.tsv
 
 # Created by https://www.gitignore.io/api/r,git,vim,linux,python,windows,notepadpp,jupyternotebooks,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=r,git,vim,linux,python,windows,notepadpp,jupyternotebooks,visualstudiocode
